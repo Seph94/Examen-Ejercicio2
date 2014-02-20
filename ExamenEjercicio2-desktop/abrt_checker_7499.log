@@ -1,0 +1,6 @@
+Uncaught java.lang.Error exception in thread "main" in a method com.me.mygdxgame.MyGdxGame.<init>() with signature ()V
+Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
+	Syntax error on token "}", delete this token
+
+	at com.me.mygdxgame.MyGdxGame.<init>(MyGdxGame.java:91) [file:/home/alumno/ExamenEjercicio2/ExamenEjercicio2/bin/com/me/mygdxgame/MyGdxGame.class]
+	at com.me.mygdxgame.Main.main(Main.java:14) [file:/home/alumno/ExamenEjercicio2/ExamenEjercicio2-desktop/bin/com/me/mygdxgame/Main.class]

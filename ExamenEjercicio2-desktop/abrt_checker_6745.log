@@ -1,0 +1,5 @@
+Uncaught java.lang.NullPointerException exception in thread "LWJGL Application" in a method com.badlogic.gdx.backends.lwjgl.LwjglApplication$1.run() with signature ()V
+Exception in thread "LWJGL Application" java.lang.NullPointerException
+	at com.me.mygdxgame.MyGdxGame.render(MyGdxGame.java:80) [file:/home/alumno/ExamenEjercicio2/ExamenEjercicio2/bin/com/me/mygdxgame/MyGdxGame.class]
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication.mainLoop(LwjglApplication.java:208) [jar:file:/home/alumno/ExamenEjercicio2/ExamenEjercicio2-desktop/libs/gdx-backend-lwjgl.jar!/com/badlogic/gdx/backends/lwjgl/LwjglApplication.class]
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication$1.run(LwjglApplication.java:115) [jar:file:/home/alumno/ExamenEjercicio2/ExamenEjercicio2-desktop/libs/gdx-backend-lwjgl.jar!/com/badlogic/gdx/backends/lwjgl/LwjglApplication$1.class]

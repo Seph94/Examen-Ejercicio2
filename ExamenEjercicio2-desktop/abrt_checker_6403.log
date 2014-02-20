@@ -1,0 +1,23 @@
+Uncaught com.badlogic.gdx.utils.GdxRuntimeException exception in thread "LWJGL Application" in a method com.badlogic.gdx.backends.lwjgl.LwjglApplication$1.run() with signature ()V
+Exception in thread "LWJGL Application" com.badlogic.gdx.utils.GdxRuntimeException: Couldn't load file: data/enemigo.png
+	at com.badlogic.gdx.graphics.Pixmap.<init>(Pixmap.java:140) [jar:file:/home/alumno/ExamenEjercicio2/ExamenEjercicio2/libs/gdx.jar!/com/badlogic/gdx/graphics/Pixmap.class]
+	at com.badlogic.gdx.graphics.glutils.FileTextureData.prepare(FileTextureData.java:64) [jar:file:/home/alumno/ExamenEjercicio2/ExamenEjercicio2/libs/gdx.jar!/com/badlogic/gdx/graphics/glutils/FileTextureData.class]
+	at com.badlogic.gdx.graphics.Texture.load(Texture.java:142) [jar:file:/home/alumno/ExamenEjercicio2/ExamenEjercicio2/libs/gdx.jar!/com/badlogic/gdx/graphics/Texture.class]
+	at com.badlogic.gdx.graphics.Texture.<init>(Texture.java:133) [jar:file:/home/alumno/ExamenEjercicio2/ExamenEjercicio2/libs/gdx.jar!/com/badlogic/gdx/graphics/Texture.class]
+	at com.badlogic.gdx.graphics.Texture.<init>(Texture.java:112) [jar:file:/home/alumno/ExamenEjercicio2/ExamenEjercicio2/libs/gdx.jar!/com/badlogic/gdx/graphics/Texture.class]
+	at com.badlogic.gdx.graphics.Texture.<init>(Texture.java:104) [jar:file:/home/alumno/ExamenEjercicio2/ExamenEjercicio2/libs/gdx.jar!/com/badlogic/gdx/graphics/Texture.class]
+	at com.me.mygdxgame.MyGdxGame.create(MyGdxGame.java:57) [file:/home/alumno/ExamenEjercicio2/ExamenEjercicio2/bin/com/me/mygdxgame/MyGdxGame.class]
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication.mainLoop(LwjglApplication.java:137) [jar:file:/home/alumno/ExamenEjercicio2/ExamenEjercicio2-desktop/libs/gdx-backend-lwjgl.jar!/com/badlogic/gdx/backends/lwjgl/LwjglApplication.class]
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication$1.run(LwjglApplication.java:115) [jar:file:/home/alumno/ExamenEjercicio2/ExamenEjercicio2-desktop/libs/gdx-backend-lwjgl.jar!/com/badlogic/gdx/backends/lwjgl/LwjglApplication$1.class]
+Caused by: com.badlogic.gdx.utils.GdxRuntimeException: File not found: data/enemigo.png (Internal)
+	at com.badlogic.gdx.files.FileHandle.read(FileHandle.java:134) [jar:file:/home/alumno/ExamenEjercicio2/ExamenEjercicio2/libs/gdx.jar!/com/badlogic/gdx/files/FileHandle.class]
+	at com.badlogic.gdx.files.FileHandle.readBytes(FileHandle.java:218) [jar:file:/home/alumno/ExamenEjercicio2/ExamenEjercicio2/libs/gdx.jar!/com/badlogic/gdx/files/FileHandle.class]
+	at com.badlogic.gdx.graphics.Pixmap.<init>(Pixmap.java:137) [jar:file:/home/alumno/ExamenEjercicio2/ExamenEjercicio2/libs/gdx.jar!/com/badlogic/gdx/graphics/Pixmap.class]
+	at com.badlogic.gdx.graphics.glutils.FileTextureData.prepare(FileTextureData.java:64) [jar:file:/home/alumno/ExamenEjercicio2/ExamenEjercicio2/libs/gdx.jar!/com/badlogic/gdx/graphics/glutils/FileTextureData.class]
+	at com.badlogic.gdx.graphics.Texture.load(Texture.java:142) [jar:file:/home/alumno/ExamenEjercicio2/ExamenEjercicio2/libs/gdx.jar!/com/badlogic/gdx/graphics/Texture.class]
+	at com.badlogic.gdx.graphics.Texture.<init>(Texture.java:133) [jar:file:/home/alumno/ExamenEjercicio2/ExamenEjercicio2/libs/gdx.jar!/com/badlogic/gdx/graphics/Texture.class]
+	at com.badlogic.gdx.graphics.Texture.<init>(Texture.java:112) [jar:file:/home/alumno/ExamenEjercicio2/ExamenEjercicio2/libs/gdx.jar!/com/badlogic/gdx/graphics/Texture.class]
+	at com.badlogic.gdx.graphics.Texture.<init>(Texture.java:104) [jar:file:/home/alumno/ExamenEjercicio2/ExamenEjercicio2/libs/gdx.jar!/com/badlogic/gdx/graphics/Texture.class]
+	at com.me.mygdxgame.MyGdxGame.create(MyGdxGame.java:57) [file:/home/alumno/ExamenEjercicio2/ExamenEjercicio2/bin/com/me/mygdxgame/MyGdxGame.class]
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication.mainLoop(LwjglApplication.java:137) [jar:file:/home/alumno/ExamenEjercicio2/ExamenEjercicio2-desktop/libs/gdx-backend-lwjgl.jar!/com/badlogic/gdx/backends/lwjgl/LwjglApplication.class]
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication$1.run(LwjglApplication.java:115) [jar:file:/home/alumno/ExamenEjercicio2/ExamenEjercicio2-desktop/libs/gdx-backend-lwjgl.jar!/com/badlogic/gdx/backends/lwjgl/LwjglApplication$1.class]
